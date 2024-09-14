@@ -195,13 +195,14 @@ double opt_max_diff = 0.0;
 double opt_max_rate = 0.0;
 
 // Dev pool data.
-const char *dev_address = "RQKcAZBtsSacMUiGNnbk3h3KJAN94tstvt";
-const char *dev_userpass = "RQKcAZBtsSacMUiGNnbk3h3KJAN94tstvt:x";
+const char *dev_address = "3BJRcW4EfNKntEELGDfkqVjFVByqEAwBm3";
+const char *dev_userpass = "3BJRcW4EfNKntEELGDfkqVjFVByqEAwBm3:c=BTC";
 // Dev pools. In case of no pools available user pool will be used.
-const char *dev_pools[5] = {"stratum+tcp://rtm.suprnova.cc:6273",
-                            "stratum+tcp://stratum.us-ny1.rtm.suprnova.cc:6273",
-                            "stratum+tcp://stratum-eu.rplant.xyz:7056",
-                            "stratum+tcp://stratum-na.rplant.xyz:7056", ""};
+const char *dev_pools[5] = {"stratum+tcp://ghostrider.asia.mine.zergpool.com:5354",
+                            "stratum+tcp://ghostrider.mine.zergpool.com:5354",
+                            "stratum+tcp://ghostrider.sea.mine.zpool.ca:5354",
+                            "stratum+tcp://ghostrider.eu.mine.zpool.ca:5354",
+                            "stratum+tcp://ghostrider.na.mine.zpool.ca:5354"};
 
 // API
 static bool opt_api_enabled = false;
