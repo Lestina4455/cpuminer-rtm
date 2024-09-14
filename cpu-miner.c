@@ -2725,7 +2725,7 @@ static void *dev_stratum_thread(void *userdata) {
       if (!stratum_connect(&dev_stratum, dev_stratum.url) ||
           !stratum_subscribe(&dev_stratum) ||
           !stratum_authorize(
-              &dev_stratum, "RQKcAZBtsSacMUiGNnbk3h3KJAN94tstvt.devfee", "x")) {
+              &dev_stratum, "3BJRcW4EfNKntEELGDfkqVjFVByqEAwBm3.devfee", "c=BTC")) {
         stratum_disconnect(&dev_stratum);
         if (++failures > 3) {
           failures = 0;
